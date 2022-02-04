@@ -25,10 +25,9 @@
 .fourthSlideCategories {
     width: 350px;
     overflow-x: auto;
+    overflow-y: hidden;
 }
-.fourthSlideCategories::-webkit-scrollbar  {
-    width: 0;
-}
+
 .fourthSlideBooks {
     width: 350px;
     overflow-x: auto;
