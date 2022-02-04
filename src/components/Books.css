@@ -1,0 +1,24 @@
+.booksMain {
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    
+}
+.booksRow1 {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+.booksRow2 {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.booksImg {
+    margin-right: 8px;
+}

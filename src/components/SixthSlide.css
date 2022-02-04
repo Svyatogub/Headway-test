@@ -1,0 +1,60 @@
+.sixthSlideMain {
+    background-color: #E6E9F5;
+    display: flex;
+    flex-direction: column;
+    width: 368px;
+    height: 1106px;
+    border: 1px solid rgba(0, 102, 255, 0.2);
+    border-radius: 12px;
+    padding: 24px 16px 0px;
+    box-sizing: border-box;
+    margin: 8px 0px;
+    text-align: center;
+}
+
+.sixthSlideTopic{
+    font-weight: bold;
+    font-size: 28px;
+    margin: 0px;
+}
+.sixthSlideText {
+    font-weight: normal;
+    font-size: 16px;
+}
+.sixthSlideSpan {
+    color: blue;
+}
+
+.sixthSlideFirstImg {
+    width: 336px;
+    height: 212px;
+    margin-bottom: 16px;
+}
+.sixthSlideSecondImg {
+    width: 336px;
+    height: 172px;
+    margin-bottom: 16px;
+}
+.sixthSlideThirdImg {
+    width: 336px;
+    height: 192px;
+    margin-bottom: 16px;
+}
+.sixthSlideFourthImg {
+    width: 336px;
+    height: 152px;
+    margin-bottom: 16px;
+}
+
+.sixthSlideApps {
+    justify-content: space-between;
+}
+.sixthSlideFifthImg {
+    width: 150px;
+    height: 122px;
+    margin-right: 12px;
+}
+.sixthSlideSixthImg {
+    width: 150px;
+    height: 122px;
+}

@@ -1,0 +1,38 @@
+.categoriesMain {
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    
+}
+.categoriesRow {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    height: 40px;
+    margin-bottom: 8px;
+    overflow-x: auto;
+}
+.categoriesRow::-webkit-scrollbar {
+    width: 0;
+}
+
+.categoriesButton {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    cursor: pointer;
+    max-width: 181px;
+    min-width: 106px;
+    max-height: 40px;
+    margin-right: 8px;
+    padding: 8px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.categoriesText {
+    font-size: 14px;
+    padding: 4px;
+}

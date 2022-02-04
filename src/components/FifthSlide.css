@@ -1,0 +1,75 @@
+.fifthSlideMain {
+    background-color: rgba(255, 51, 51, 0.1);
+    display: flex;
+    flex-direction: column;
+    width: 368px;
+    height: 564px;
+    border: 1px solid rgba(255, 51, 51, 0.1);;
+    border-radius: 12px;
+    padding: 24px 16px 0px;
+    box-sizing: border-box;
+    margin: 8px 0px;
+    text-align: center;
+}
+.fifthSlideTopic {
+    font-weight: bold;
+    font-size: 28px;
+    margin: 0px;
+}
+.fifthSlideText {
+    font-weight: normal;
+    font-size: 16px;
+}
+.fifthSlideTogger {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 336px;
+    height: 56px;
+    margin-top: 10px;
+}
+
+.fifthSlideButton{
+    position: relative;
+    display: block;
+    width: 116px;
+    height: 56px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    transition: 0.5s;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.fifthSlideButtonIndicator {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 58px;
+    height: 54px;
+    background: linear-gradient(to bottom, #0066FF, #0066FF);
+    border-radius: 50%;
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+.fifthSlideButtonActive {
+    background: black;
+}
+.fifthSlideImg {
+    margin-top: 30px;
+}
+
+.toggleFirstPic {
+    position: absolute;
+    z-index: 1;
+    margin-left: 20px;
+    margin-top: 18px;
+}
+.toggleSecondtPic {
+    position: absolute;
+    z-index: 1;
+    margin-left: -38px;
+    margin-top: 20px;
+}
+

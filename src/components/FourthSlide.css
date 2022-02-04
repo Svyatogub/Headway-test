@@ -1,0 +1,40 @@
+.fourthSlideMain {
+    background-color: rgba(122, 0, 218, 0.1);;
+    display: flex;
+    flex-direction: column;
+    width: 368px;
+    height: 708px;
+    border: 1px solid rgba(122, 0, 218, 0.1);
+    border-radius: 12px;
+    padding: 24px 16px 0px;
+    box-sizing: border-box;
+    margin: 8px 0px;
+    text-align: center;
+}
+
+.fourthSlideTopic {
+    font-weight: bold;
+    font-size: 28px;
+    margin: 0px;
+}
+.fourthSlideText {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.fourthSlideCategories {
+    width: 350px;
+    overflow-x: auto;
+}
+.fourthSlideCategories::-webkit-scrollbar  {
+    width: 0;
+}
+.fourthSlideBooks {
+    width: 350px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.fourthSlideThirdImg {
+    margin-top: 20px;
+}
