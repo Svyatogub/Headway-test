@@ -18,29 +18,99 @@ import book14 from '../img/books/14.svg'
 import book15 from '../img/books/15.svg'
 import book16 from '../img/books/16.svg'
 
+const firstRow = [
+  {
+    title: "book",
+    img: book1
+  },
+  {
+    title: "book",
+    img: book2
+  },
+  {
+    title: "book",
+    img: book3
+  },
+  {
+    title: "book",
+    img: book4
+  },
+  {
+    title: "book",
+    img: book5
+  },
+]
+const secondRow = [
+  {
+    title: "book",
+    img: book6
+  },
+  {
+    title: "book",
+    img: book7
+  },
+  {
+    title: "book",
+    img: book8
+  },
+  {
+    title: "book",
+    img: book9
+  },
+  {
+    title: "book",
+    img: book10
+  },
+  {
+    title: "book",
+    img: book11
+  },
+]
+const thirdRow = [
+  {
+    title: "book",
+    img: book12
+  },
+  {
+    title: "book",
+    img: book13
+  },
+  {
+    title: "book",
+    img: book14
+  },
+  {
+    title: "book",
+    img: book15
+  },
+  {
+    title: "book",
+    img: book16
+  },
+]
+
 export const Books = () => {
   return <div className="booksMain">
     <div className="booksRow1">
-        <img className="booksImg" src={book1} alt="book"/>
-        <img className="booksImg" src={book2} alt="book"/>
-        <img className="booksImg" src={book3} alt="book"/>
-        <img className="booksImg" src={book4} alt="book"/>
-        <img className="booksImg" src={book5} alt="book"/>
+        {
+          firstRow.map((first) => {
+            return <img className="booksImg" src={first.img} alt={first.title}/>
+          })
+        }
     </div>
     <div className="booksRow2">
-        <img className="booksImg" src={book6} alt="book"/>
-        <img className="booksImg" src={book7} alt="book"/>
-        <img className="booksImg" src={book8} alt="book"/>
-        <img className="booksImg" src={book9} alt="book"/>
-        <img className="booksImg" src={book10} alt="book"/>
-        <img className="booksImg" src={book11} alt="book"/>
+        {
+          secondRow.map((second) => {
+            return <img className="booksImg" src={second.img} alt={second.title}/>
+          })
+        }
     </div>
     <div className="booksRow1">
-        <img className="booksImg" src={book12} alt="book"/>
-        <img className="booksImg" src={book13} alt="book"/>
-        <img className="booksImg" src={book14} alt="book"/>
-        <img className="booksImg" src={book15} alt="book"/>
-        <img className="booksImg" src={book16} alt="book"/>
+        {
+          thirdRow.map((third) => {
+            return <img className="booksImg" src={third.img} alt={third.title}/>
+          })
+        }
     </div>
   </div>;
 };

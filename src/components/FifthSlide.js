@@ -15,7 +15,6 @@
     
    return <div className="fifthSlideMain">
        <h1 className="fifthSlideTopic">Read or Listen</h1>
-       {picture}
        <p className="fifthSlideText">Commuting, jogging, or stuck in line? Enjoy the best books in a condensed format. Summaries have an audio version, narrated by professional voice actors.</p>
        <div className="fifthSlideTogger">
             <p className="fifthSlideText">Listen</p>

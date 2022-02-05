@@ -25,36 +25,11 @@
     color: blue;
 }
 
-.sixthSlideFirstImg {
-    width: 336px;
-    height: 212px;
+.sixthSlideComment {
     margin-bottom: 16px;
 }
-.sixthSlideSecondImg {
-    width: 336px;
-    height: 172px;
-    margin-bottom: 16px;
-}
-.sixthSlideThirdImg {
-    width: 336px;
-    height: 192px;
-    margin-bottom: 16px;
-}
-.sixthSlideFourthImg {
-    width: 336px;
-    height: 152px;
-    margin-bottom: 16px;
-}
-
-.sixthSlideApps {
-    justify-content: space-between;
-}
-.sixthSlideFifthImg {
+.sixthSlideRating {
     width: 150px;
-    height: 122px;
     margin-right: 12px;
-}
-.sixthSlideSixthImg {
-    width: 150px;
-    height: 122px;
+    margin-left: 5px;
 }

@@ -12,54 +12,85 @@ import lock from '../img/categories/lock.svg'
 import heart from '../img/categories/heart.svg'
 import ball from '../img/categories/ball.svg'
 
+const firstRow = [
+    {
+        text: "All categories",
+    },
+    {
+        text: "Self-Growth",
+        img: mountain,
+        title: "mountain"
+    },
+    {
+        text: "Happiness",
+        img: smile,
+        title: "smile"
+    },
+    {
+        text: "Money & Investment",
+        img: creditCard,
+        title: "creditCard"
+    },
+    {
+        text: "Negotiation",
+        img: speaker,
+        title: "speaker"
+    },
+    {
+        text: "Health",
+        img: apple,
+        title: "apple"
+    }
+]
+const secondRow = [
+    {
+        text: "Spiritualit",
+        img: planet,
+        title: "planet"
+    },
+    {
+        text: "Productivity",
+        img: hourglass,
+        title: "hourglass"
+    },
+    {
+        text: "Business & Career",
+        img: lock,
+        title: "lock"
+    },
+    {
+        text: "Love & Sex",
+        img: heart,
+        title: "heart"
+    },
+    {
+        text: "Sports & Fitness",
+        img: ball,
+        title: "ball"
+    }
+]
+
 export const Categories = () => {
   return <div className='categoriesMain'>
       <div className="categoriesRow">
-        <button className="categoriesButton">
-            <p className="categoriesText">All categories</p>
-            </button>
-        <button className="categoriesButton">
-            <img src={mountain} alt="mountain"/>
-            <p className="categoriesText">Self-Growth</p>
-            </button>
-        <button className="categoriesButton">
-            <img src={smile} alt="smile"/>
-            <p className="categoriesText">Happiness</p>
-            </button>
-        <button className="categoriesButton">
-            <img src={creditCard} alt="creditCard"/>  
-            <p className="categoriesText">Money & Investment</p>
-            </button>
-        <button className="categoriesButton">
-            <img src={speaker} alt="speaker"/>  
-            <p className="categoriesText">Negotiation</p>
-            </button>
-        <button className="categoriesButton">
-            <img src={apple} alt="apple "/>
-            <p className="categoriesText">Health</p>
-            </button> 
+        {
+            firstRow.map((first) => {
+                return <button className="categoriesButton">
+                        <img src={first.img} alt={first.title}/>
+                        <p className="categoriesText">{first.text}</p>
+                        </button>
+            })
+        }
       </div>
       <div className="categoriesRow">
-        <button className="categoriesButton">
-            <img src={planet} alt="planet"/>
-            <p className="categoriesText">Spirituality</p>
-            </button>
-        <button className="categoriesButton">
-            <img src={hourglass} alt="hourglass"/>
-            <p className="categoriesText">Productivity</p>
-            </button>
-        <button className="categoriesButton">
-            <img src={lock} alt="lock"/>
-            <p className="categoriesText">Business & Career</p>
-            </button>
-        <button className="categoriesButton">
-            <img src={heart} alt="heart"/>
-            <p className="categoriesText">Love & Sex</p>
-            </button>
-        <button className="categoriesButton">
-            <img src={ball} alt="ball"/>
-            <p className="categoriesText">Sports & Fitness</p>
-            </button>
+        {
+            secondRow.map((second) => {
+                return <button className="categoriesButton">
+                        <img src={second.img} alt={second.title}/>
+                        <p className="categoriesText">{second.text}</p>
+                        </button>
+            })
+        }
       </div>
   </div>;
 };

@@ -6,15 +6,37 @@ import facebook from '../img/seventhSlide/Fill 1.svg'
 import insta from '../img/seventhSlide/Insta.svg'
 import twitter from '../img/seventhSlide/Path.svg'
 
+const socials = [
+  {
+      title: 'facebook',
+      logo: facebook,
+      link: 'https://www.facebook.com/headwaybooks/'
+  },
+  {
+      title: 'instagram',
+      logo: insta,
+      link: 'https://www.instagram.com/headway_app/'
+  },
+  {
+      title: 'twitter',
+      logo: twitter,
+      link: 'https://twitter.com/get_headway'
+  }
+]
+
 export const SeventhSlide = () => {
   return <div className="seventhSlideMain">
       <img className="seventhSlideFirstImg" src={logo} alt="logo"/>
       <h1 className="seventhSlideTopic">Empower yourself with the best books insights</h1>
       <p className="seventhSlideText">Social media:</p>
       <div>
-        <img className="seventhSlideSecondImg" src={facebook} alt="facebook"/>
-        <img className="seventhSlideSecondImg"src={insta} alt="insta"/>
-        <img className="seventhSlideSecondImg"src={twitter} alt="twitter"/>
+        {
+          socials.map((social) => {
+            return <a href={social.link} target="_blank">
+                <img className="seventhSlideSecondImg" src={social.logo} alt={social.title} />
+            </a>
+          })
+        }
       </div>
   </div>;
 };

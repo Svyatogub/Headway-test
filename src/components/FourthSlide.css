@@ -22,17 +22,12 @@
     font-size: 16px;
 }
 
-.fourthSlideCategories {
+.fourthSlide {
     width: 350px;
     overflow-x: auto;
     overflow-y: hidden;
 }
 
-.fourthSlideBooks {
-    width: 350px;
-    overflow-x: auto;
-    overflow-y: hidden;
-}
 
 .fourthSlideThirdImg {
     margin-top: 20px;

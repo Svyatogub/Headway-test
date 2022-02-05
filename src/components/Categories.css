@@ -2,7 +2,6 @@
     justify-content: center;
     align-items: center;
     padding: 8px;
-    
 }
 .categoriesRow {
     display: flex;
@@ -34,5 +33,5 @@
 
 .categoriesText {
     font-size: 14px;
-    padding: 4px;
+    padding: 16px;
 }
