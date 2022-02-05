@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/Headway-test/static/css/main.fea6b660.css",
-    "main.js": "/Headway-test/static/js/main.8992102c.js",
-    "static/media/snippets.svg": "/Headway-test/static/media/snippets.1f44626f1aec82b5209195a8ed2297c7.svg",
+    "main.css": "/Headway-test/static/css/main.41c61a2a.css",
+    "main.js": "/Headway-test/static/js/main.3d074b72.js",
     "static/media/12.svg": "/Headway-test/static/media/12.575f8820744cff0a94e91e3f23d29660.svg",
     "static/media/9.svg": "/Headway-test/static/media/9.4fac4bf0ead0223d5402274dee477850.svg",
     "static/media/16.svg": "/Headway-test/static/media/16.893621a3d3173f43fa63c12a40912940.svg",
@@ -56,11 +55,11 @@
     "static/media/Fill 1.svg": "/Headway-test/static/media/Fill 1.d7e13f554df5e8de8ff44c5be8a5611e.svg",
     "static/media/Vector 2.svg": "/Headway-test/static/media/Vector 2.3cccca65ccefb87f1a7582d5b0073613.svg",
     "static/media/Vector 3.svg": "/Headway-test/static/media/Vector 3.07c10b20ecf9bac1db230b4e1d406f57.svg",
-    "main.fea6b660.css.map": "/Headway-test/static/css/main.fea6b660.css.map",
-    "main.8992102c.js.map": "/Headway-test/static/js/main.8992102c.js.map"
+    "main.41c61a2a.css.map": "/Headway-test/static/css/main.41c61a2a.css.map",
+    "main.3d074b72.js.map": "/Headway-test/static/js/main.3d074b72.js.map"
   },
   "entrypoints": [
-    "static/css/main.fea6b660.css",
-    "static/js/main.8992102c.js"
+    "static/css/main.41c61a2a.css",
+    "static/js/main.3d074b72.js"
   ]
 }
