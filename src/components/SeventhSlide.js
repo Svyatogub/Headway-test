@@ -25,18 +25,20 @@ const socials = [
 ]
 
 export const SeventhSlide = () => {
-  return <div className="slideMain ; seventhMain">
+  return <div className="seventhMain ; slideMain">
       <img className="seventhSlideFirstImg" src={logo} alt="logo"/>
-      <h1 className="slideTopic ; seventhSlideTopic">Empower yourself with the best books insights</h1>
-      <p>Social media:</p>
-      <div>
-        {
-          socials.map((social) => {
-            return <a href={social.link} target="_blank">
-                <img className="seventhSlideSecondImg" src={social.logo} alt={social.title} />
-            </a>
-          })
-        }
+      <div className="seventhText">
+        <h1 className="slideTopic ; seventhSlideTopic">Empower yourself with the best books insights</h1>
+        <p>Social media:</p>
+        <div>
+          {
+            socials.map((social) => {
+              return <a href={social.link} target="_blank">
+                  <img className="seventhSlideSecondImg" src={social.logo} alt={social.title} />
+              </a>
+            })
+          }
+        </div>
       </div>
   </div>;
 };
