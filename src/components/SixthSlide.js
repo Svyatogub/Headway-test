@@ -1,5 +1,5 @@
 import React from 'react';
-import './SixthSlide.css'
+import './SecondHalf.css'
 
 import comment1 from '../img/sixthSlide/review.svg'
 import comment2 from '../img/sixthSlide/review2.svg'
@@ -39,9 +39,9 @@ const ratings = [
 
 
 export const SixthSlide = () => {
-  return <div className="sixthSlideMain">
-      <h1 className="sixthSlideTopic">People love the Headway app</h1>
-      <p className="sixthSlideText">Become a member of our global community of <span className="sixthSlideSpan">7 million people</span></p>
+  return <div className="slideMain ; sixthMain">
+      <h1 className="slideTopic ; sixthSlideTopic">People love the Headway app</h1>
+      <p>Become a member of our global community of <span className="sixthSlideSpan">7 million people</span></p>
       {
         comments.map((comment) => {
           return <img className="sixthSlideComment" src={comment.img} alt={comment.title}/>

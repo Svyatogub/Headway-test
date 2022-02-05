@@ -1,5 +1,5 @@
 import React from 'react';
-import './FourthSlide.css'
+import './FirstHalf.css'
 
 import { Categories } from './Categories';
 import { Books } from './Books';
@@ -12,12 +12,12 @@ const fourthSlideInfo = [
 ]
 
 export const FourthSlide = () => {
-  return <div className="fourthSlideMain">
+  return <div className="slideMain ; fourthMain">
       {
         fourthSlideInfo.map((fourth) => {
           return <>
-            <h1 className='fourthSlideTopic'>{fourth.topic}</h1>
-            <p className='fourthSlideText'>{fourth.text}</p>
+            <h1 className='slideTopic ; fourthSlideTopic'>{fourth.topic}</h1>
+            <p className='slideParagraph'>{fourth.text}</p>
           </>
         })
       }

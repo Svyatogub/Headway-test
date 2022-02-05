@@ -1,0 +1,123 @@
+/* Reusable */
+.slideMain {
+    display: flex;
+    flex-direction: column;
+    width: 368px;
+    border-radius: 12px;
+    padding: 24px 16px 0px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 8px 0px;
+}
+
+.slideTopic {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 8px 0px;
+}
+.slideParagraph {
+    margin: 8px 0px;
+}
+.slideContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* First Slide */
+.firstMain {
+    background-color: #FFFFFF;
+    height: 820px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.firstSlideImg {
+    width: 336px;
+    height: 272px;
+    margin: 24px 0px;
+}
+.firstSlideImg1 {
+    padding: 24px 16px 0px;
+}
+
+.firstSlideButton {
+    width: 336px;
+    height: 56px;
+    background: #0066FF;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+}
+
+/* Second Slide */
+.secondMain {
+    background-color: #E6F2E7;
+    height: 1064px;
+    border: 1px solid rgba(0, 187, 119, 0.4);
+}
+
+.secondSlideSmallerTopic {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+.secondSlideImg {
+    width: 327px;
+    height: 180px;
+    margin-top: 24px;
+}
+
+/* Third Slide */
+.thirdMain {
+    background-color: #FFEDE1;
+    height: 874px;
+    border: 1px solid rgba(255, 136, 51, 0.2);
+}
+
+.thirdSlideTopic {
+    margin: 0px;
+}
+.thirdSlideText {
+    margin-bottom: 0px;
+}
+.thirdSlideSmallerText {
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 0px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.thirdSlideFristImg {
+    width: 336px;
+    height: 168px;
+    margin-top: 10px;
+}
+.thirdSlideThirdImg {
+    width: 50px;
+    height: 77px;
+    margin-left: 43.5%;
+}
+.thirdSlideFourthImg {
+    margin-top: 10px;
+}
+
+/* Fourth Slide */
+.fourthMain {
+    background-color: rgba(122, 0, 218, 0.1);;
+    height: 708px;
+    border: 1px solid rgba(122, 0, 218, 0.1);
+}
+
+.fourthSlideTopic {
+    margin: 0px;
+}
+
+.fourthSlide {
+    width: 350px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}

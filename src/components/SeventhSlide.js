@@ -1,5 +1,5 @@
 import React from 'react';
-import './SeventhSlide.css'
+import './SecondHalf.css'
 
 import logo from '../img/seventhSlide/Union.svg'
 import facebook from '../img/seventhSlide/Fill 1.svg'
@@ -25,10 +25,10 @@ const socials = [
 ]
 
 export const SeventhSlide = () => {
-  return <div className="seventhSlideMain">
+  return <div className="slideMain ; seventhMain">
       <img className="seventhSlideFirstImg" src={logo} alt="logo"/>
-      <h1 className="seventhSlideTopic">Empower yourself with the best books insights</h1>
-      <p className="seventhSlideText">Social media:</p>
+      <h1 className="slideTopic ; seventhSlideTopic">Empower yourself with the best books insights</h1>
+      <p>Social media:</p>
       <div>
         {
           socials.map((social) => {

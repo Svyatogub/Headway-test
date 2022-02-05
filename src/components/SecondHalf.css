@@ -1,25 +1,39 @@
-.fifthSlideMain {
-    background-color: rgba(255, 51, 51, 0.1);
+.slideMain {
     display: flex;
     flex-direction: column;
     width: 368px;
-    height: 564px;
-    border: 1px solid rgba(255, 51, 51, 0.1);;
     border-radius: 12px;
     padding: 24px 16px 0px;
     box-sizing: border-box;
-    margin: 8px 0px;
     text-align: center;
+    margin: 8px 0px;
 }
-.fifthSlideTopic {
-    font-weight: bold;
+
+.slideTopic {
     font-size: 28px;
+    font-weight: bold;
+    margin: 8px 0px;
+}
+.slideParagraph {
+    margin: 8px 0px;
+}
+.slideContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Fifth Slide */
+.fifthMain {
+    background-color: rgba(255, 51, 51, 0.1);
+    height: 564px;
+    border: 1px solid rgba(255, 51, 51, 0.1);;
+}
+
+.fifthTopic {
     margin: 0px;
 }
-.fifthSlideText {
-    font-weight: normal;
-    font-size: 16px;
-}
+
 .fifthSlideTogger {
     display: flex;
     flex-direction: row;
@@ -56,6 +70,7 @@
 .fifthSlideButtonActive {
     background: black;
 }
+
 .fifthSlideImg {
     margin-top: 30px;
 }
@@ -73,3 +88,50 @@
     margin-top: 20px;
 }
 
+/* Sixth Slide */
+.sixthMain {
+    background-color: #E6E9F5;
+    height: 1106px;
+    border: 1px solid rgba(0, 102, 255, 0.2);
+}
+
+.sixthSlideTopic{
+    margin: 0px;
+}
+
+.sixthSlideSpan {
+    color: blue;
+}
+
+.sixthSlideComment {
+    margin-bottom: 16px;
+}
+.sixthSlideRating {
+    width: 150px;
+    margin-right: 12px;
+    margin-left: 5px;
+}
+
+/* Seventh Slide */ 
+.seventhMain {
+    background-color: #FFFFFF;
+    height: 240px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: start;
+}
+
+.seventhSlideTopic{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.seventhSlideFirstImg {
+    width: 132px;
+    height: 24px;
+}
+.seventhSlideSecondImg {
+    width: 21px;
+    height: 21px;
+    margin-left: 5px;
+    margin-right: 5px;
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import './SecondSlide.css'
+import './FirstHalf.css'
 
 import brands from '../img/secondSlide/Image.svg'
 import blocks from '../img/secondSlide/Image2.svg'
@@ -28,15 +28,15 @@ const secondSlideInfo = [
 ]
 
 export const SecondSlide = () => {
-  return <div className="secondSlideMain">
+  return <div className="slideMain ; secondMain">
         {
           secondSlideInfo.map((secondSlide) => {
             return (
               <div>
-                <h1 className="secondSlideTopic">{secondSlide.topic}</h1>
-                <img className="secondSlideFirstImg" src={secondSlide.img} alt={secondSlide.title}/>
+                <h1 className="slideTopic">{secondSlide.topic}</h1>
+                <img className="secondSlideImg" src={secondSlide.img} alt={secondSlide.title}/>
                 <h2 className="secondSlideSmallerTopic">{secondSlide.subtopic}t</h2>
-                <p className="secondSlideParagraph">{secondSlide.text}</p>
+                <p className="slideParagraph">{secondSlide.text}</p>
               </div>
             )
           })
