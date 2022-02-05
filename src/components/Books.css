@@ -9,6 +9,8 @@
     width: 400px;
     margin-bottom: 8px;
     cursor: pointer;
+    overflow-x: auto;
+    width: 360px;
 }
 .booksRow2 {
     display: flex;
@@ -16,8 +18,15 @@
     width: 400px;
     margin-bottom: 8px;
     cursor: pointer;
+    overflow-x: auto;
+    width: 360px;
 }
 
 .booksImg {
     margin-right: 8px;
+    filter: grayscale(100%);
+}
+
+.included {
+    filter: none;
 }

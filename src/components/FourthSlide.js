@@ -1,8 +1,11 @@
-import React from 'react';
+
+import React, { useEffect, useState } from 'react';
 import './FirstHalf.css'
 
 import { Categories } from './Categories';
 import { Books } from './Books';
+
+import { data } from './fakeApi';
 
 const fourthSlideInfo = [
   {
@@ -12,20 +15,35 @@ const fourthSlideInfo = [
 ]
 
 export const FourthSlide = () => {
-  return <div className="slideMain ; fourthMain">
+
+  const [highlightedCats, setHighlightedCats] = useState([]);
+
+  const chooseCategory = (category) => {
+    if (category) {
+      if (highlightedCats.includes(category)) {
+        setHighlightedCats(highlightedCats.filter((cat) => cat !== category))
+      } else {
+        setHighlightedCats(highlightedCats.concat(category));
+      }
+    } else {
+      setHighlightedCats([]);
+    }
+  }
+
+  return <div className="slideMain fourthMain">
       {
         fourthSlideInfo.map((fourth) => {
           return <>
-            <h1 className='slideTopic ; fourthSlideTopic'>{fourth.topic}</h1>
-            <p className='slideParagraph'>{fourth.text}</p>
+            <h1 className="slideTopic fourthSlideTopic">{fourth.topic}</h1>
+            <p className="slideParagraph">{fourth.text}</p>
           </>
         })
       }
-      <div className="fourthSlide">
-        <Categories/>
+      <div className="fourthCategories">
+        <Categories data={data.categories} chooseCategory={chooseCategory} highlightedCats={highlightedCats}/>
       </div>
-      <div className="fourthSlide">
-       <Books/>
+      <div className="fourthBooks">
+          <Books data={data.books} highlightedCats={highlightedCats}/>
       </div>
   </div>;
 };
